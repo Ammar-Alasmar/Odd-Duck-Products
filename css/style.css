@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin-left: 10%;
+  margin-right: 10%;
+  vertical-align: middle;
+}
+
+header {
+  margin-top: 30px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 50px;
+  font-weight: bold;
+  background-color: #999;
+}
+
+#imgsDisplay {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#imgsDisplay div {
+  text-align: center;
+}
+
+#imgsDisplay div img {
+  width: 400px;
+  height: 400px;
+  border: 1px solid black;
+  border-radius: 10%;
+}
+
+#resultsDisplay {
+  margin-top: 30px;
+  text-align: center;
+  position: relative;
+}
+
+#resultsDisplay button {
+  font-size: 25px;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  background-color: #999;
+  cursor: pointer;
+}
+
+#resultsDisplay #resultsList {
+  margin-top: 30px;
+  text-align: left;
+  list-style: disc;
+  list-style-position: inside;
+}
+
+#resultsDisplay #resultsList li {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.2;
+}
